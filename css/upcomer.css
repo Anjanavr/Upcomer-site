@@ -1,0 +1,66 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: 0px auto;
+}
+a {
+	text-decoration: none;
+}
+.centralized {
+	margin: 0px auto;
+	width: 80%;
+}
+
+#nav {
+	float: left;
+}
+#upcomer-logo {
+	text-align: center;
+}
+#socialMedia {
+	float: right;
+}
+#content1 {
+	float: left;
+	width: 58%;
+}
+.heading {
+	color: #333333;
+	font-family: Asap-bold;
+}
+.content {
+	color: #999999;
+	font-family: Asap-regular;
+	font-size:20pt;
+	padding-top: 5%;
+}
+ h1{
+	font-size: 36pt;
+}
+#content1 #year {
+	font-weight: bold;
+	padding-top: 40px;
+	text-align: right;
+}
+#content1-img{
+	float: left;
+	width: 42%;
+}
+.head-col {
+	font-size: 22pt;
+}
+.content-cols {
+	font-size: 20pt;
+}
+.leftcol {
+
+	padding-top:30px;
+	width: 40%;
+}
+.rightcol {
+	margin-right: 40%;
+	padding-top: 30px;
+	width: 40%;
+}
