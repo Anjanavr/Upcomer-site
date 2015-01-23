@@ -1,0 +1,185 @@
+
+.clear {
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+.centralized {
+	margin: 0px auto;
+	width: 80%;
+}
+@font-face {
+	font-family: Asap-Bold;
+	src:url('../fonts/asap/Asap-Bold.otf');
+}
+@font-face {
+	font-family: Asap-Regular;
+	src:url('../fonts/asap/Asap-Regular.otf');
+}
+header {
+	background-color: White;
+	position: fixed;
+	width: 100%;
+}
+#menu {
+	width: 16%;
+	float: left;
+	padding:2% 0% 0 5%;
+}
+#menu a {
+	font-family: Asap-Bold;
+	font-size: 18px;
+	margin-right: 2%;
+}
+#menu a:hover {
+	color: #333333;
+}
+#logo-container {
+	float: left;
+	margin: 0px auto;
+	padding:2% 6% 0 6%;
+	text-align: center;
+	width: 40%;
+}
+header #icon-container  {
+	float: left;
+	margin: 2% 2% 0 2%;
+	width: 16%;
+}
+#content-col1 {
+	float: left;
+	margin-top: 6%;
+	width: 50%;
+}
+.heading {
+	color: #333333;
+	font-family: Asap-Bold;;
+}
+.content {
+	color: #999999;
+	font-family: Asap-Regular;
+	font-size:20px;
+}
+ h2{
+	font-size: 36px !important;
+}
+#content-col1 #year {
+	font-family:Asap-Bold;
+	padding: 5% 0;
+	text-align: right;
+}
+#content-col1-img{
+	 float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 40%;
+}
+#content-col1-img img {
+	height:400px;
+}
+.head-col {
+	font-size: 22px;
+}
+#leftcols {
+	float: left;
+	width: 40%;
+}
+#rightcols{
+	float: left;
+    margin-top: 31px;
+    width: 40%;
+}
+#bullets {
+	float: left;
+	margin: 0 8%;
+}
+#bullets div {
+	border-radius: 50px;
+	height: 35px;
+	margin:200% 0;
+	width: 35px;
+}
+#bullets #b1 {
+	background-color: rgba(255, 0, 0, 0.26);
+}
+#bullets #b2 {
+	background-color: rgba(255, 0, 0, 0.41);
+}
+#bullets #b3 {
+	background-color: rgba(255, 0, 0, 0.46);
+}
+#bullets #b4 {
+	background-color: rgba(255, 0, 0, 0.54);
+}
+#col12 , #col21 , #col22 {
+	margin: 24% 0;
+}
+#now-circle {
+	text-align: center;
+	width: 100%;
+}
+#now-writing {
+	border-radius: 50px;
+	background-color: rgba(255, 0, 0, 0.74);
+	height: 100px;
+	margin: 0px auto;
+	width: 100px;
+}
+#now-circle span{
+	color: white;
+	font-family: Asap-Bold;
+	font-size: 23px;
+	float: left;
+	margin: 36% 0;
+	text-align: center;
+	width: 100% !important;
+	
+}
+#content-col3{
+	margin: 50px auto;
+	text-align: center;
+	width: 80%;
+}
+#emailId {
+	float: left;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#emailId a {
+    background-color: #2ecc71;
+    border-radius: 35px;
+    color: #fff;
+    font-family: Asap-Regular;
+    font-size: 20.3pt;
+    padding: 21px 80px 20px;
+    text-decoration: none;
+}
+#bottom-baner {
+	background-color: #333333;
+	color: white;
+	margin-top: 5%;
+	width: 100%;
+}
+#pic-outerdiv {
+	background-color: #333333;
+}
+#hand {
+	margin-left: -48%;
+	padding-top: 12px;
+}
+#writing {
+	font-family: Asap-Bold;
+	font-size: 38px;
+	float: left;
+	background-color: #333333;
+	margin-top: 107px;
+	margin-left: 34%;
+}
+footer #icon-container {
+	text-align: center;
+	margin: 2% auto;
+}
