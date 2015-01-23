@@ -54,7 +54,7 @@ header #icon-container  {
 }
 #content-col1 {
 	float: left;
-	margin: 11% 0;
+	margin-top: 11%;
 }
 .heading {
 	color: #333333;
@@ -89,43 +89,35 @@ header #icon-container  {
 .head-col {
 	font-size: 22px;
 }
-#leftcols {
+#leftcolumn , #rightcolumn {
 	float: left;
-	width: 40%;
+	width: 50%;
 }
-#rightcols{
-	float: left;
-    margin-top: 31px;
-    position: relative;
-    left: 12%;
-    width: 40%;
-}
-#bullets {
-	float: left;
-	position: relative;
-	left: 7%;
-	
-}
-#bullets div {
+.bullets {
 	border-radius: 50px;
-	height: 35px;
-	margin:200% 0;
-	width: 35px;
+	height: 50px;
+	width: 50px;
 }
-#bullets #b1 {
+#b1 , #b2 {
+	float: right;
+}
+#b3 , #b4 {
+	float: left;
+}
+#b1 {
 	background-color: rgba(255, 0, 0, 0.26);
 }
-#bullets #b2 {
+#b2 {
 	background-color: rgba(255, 0, 0, 0.41);
 }
-#bullets #b3 {
+#b3 {
 	background-color: rgba(255, 0, 0, 0.46);
 }
-#bullets #b4 {
+#b4 {
 	background-color: rgba(255, 0, 0, 0.54);
 }
-#col12 , #col21 , #col22 {
-	margin: 30% 0;
+#col-11 , #col-12 , #col-21 , #col-22 {
+	width: 70%;
 }
 #now-circle {
 	text-align: center;
@@ -222,24 +214,6 @@ footer #icon-container {
 	#pic-outerdiv {
 		width: 100%;
 	}
-	#rightcols {
-		left: 0;
-		margin-top: 0px;
-		margin-left: 7%;
-		width: 90%;
-	}
-	#leftcols {
-		margin-left: 7%;
-		width: 90%;
-	}
-	#bullets {
-		float: right;
-		position: absolute;
-		left: 5%;
-	}
-	#col12 , #col21 , #col22 {
-	margin: 0 0;
-	}
 	#content-col3 {
 		width: 100%;
 	}
@@ -300,13 +274,6 @@ footer #icon-container {
 		font-size: 18px;
 		top: 58px;
 		left: -20px;
-	}
-	#leftcols , #rightcols {
-		margin-left: 18%;
-		width: 70%;
-	}
-	#bullets div {
-		margin: 122% 0;
 	}
 	#hand {
 		margin-left: 13px;
