@@ -24,7 +24,7 @@ header {
 	background-color: White;
 	position: fixed;
 	width: 100%;
-	border-bottom: 1px solid rgba(153, 153, 153, 0.41);
+	/*border-bottom: 1px solid rgba(153, 153, 153, 0.41);*/
 	z-index:2;
 }
 #menu {
@@ -45,10 +45,10 @@ header {
 	margin: 0px auto;
 	padding:2% 6% 0 8%;
 	text-align: center;
-	width: 40%;
+	width: 30%;
 }
 header #icon-container  {
-	float: left;
+	float: right;
 	margin: 2% 0 1% 6%;
 	width: 14%;
 }
@@ -89,14 +89,31 @@ header #icon-container  {
 .head-col {
 	font-size: 22px;
 }
+#content-col2 {
+	margin: 2% auto;
+	width: 107%;
+}
 #leftcolumn , #rightcolumn {
 	float: left;
 	width: 50%;
 }
+.left-col-cont {
+	margin-top: 24%;
+
+}
+.right-col-cont {
+  	left: -40px;
+  	margin-top: 27%;
+    position: relative;
+    top: 89px;
+}
+#col-21 , #col-22 {
+	padding-left: 20%;
+}
 .bullets {
 	border-radius: 50px;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 }
 #b1 , #b2 {
 	float: right;
@@ -108,34 +125,35 @@ header #icon-container  {
 	background-color: rgba(255, 0, 0, 0.26);
 }
 #b2 {
-	background-color: rgba(255, 0, 0, 0.41);
-}
-#b3 {
-	background-color: rgba(255, 0, 0, 0.46);
-}
-#b4 {
 	background-color: rgba(255, 0, 0, 0.54);
 }
+#b3 {
+	background-color: rgba(255, 0, 0, 0.40);
+}
+#b4 {
+	background-color: rgba(255, 0, 0, 0.71);
+}
 #col-11 , #col-12 , #col-21 , #col-22 {
-	width: 70%;
+	width: 90%;
 }
 #now-circle {
+	margin-top: 100px;
 	text-align: center;
 	width: 100%;
 }
 #now-writing {
-	border-radius: 50px;
+	border-radius: 65px;
 	background-color: rgba(255, 0, 0, 0.74);
-	height: 100px;
+	height: 120px;
 	margin: 0px auto;
-	width: 100px;
+	width: 120px;
 }
 #now-circle span{
 	color: white;
 	font-family: Asap-Bold;
-	font-size: 23px;
+	font-size: 26px;
 	float: left;
-	margin: 36% 0;
+	margin: 37% 0;
 	text-align: center;
 	width: 100% !important;
 	
@@ -175,7 +193,7 @@ header #icon-container  {
 #hand {
 	float: left;
 	padding-top: 23px;
-	margin-left: 131px;
+	margin-left: 15%;
 }
 #writing {
 	font-family: Asap-Bold;
@@ -211,6 +229,9 @@ footer #icon-container {
 		float: none;
 		margin: 0px auto;
 	}
+	#content-col2 {
+		width: 100%;
+	}
 	#pic-outerdiv {
 		width: 100%;
 	}
@@ -225,7 +246,28 @@ footer #icon-container {
 	#hand {
 		margin-left: 90px;
 	}
-
+	#leftcolumn , #rightcolumn {
+		width: 100%;
+	}
+	.left-col-cont , .right-col-cont {
+		margin-top: 10px;
+	}
+	.right-col-cont {
+		left: 0px;
+		top: 0px;
+	}
+	#b1 , #b2 {
+		float: left;
+	}
+	#b2 {
+		background-color: rgba(255, 0, 0, 0.40);
+	}
+	#b3 {
+		background-color: rgba(255, 0, 0, 0.54);
+	}
+	#col-11 , #col-12 , #col-21 , #col-22 {
+		padding-left: 17%;
+	}
 }
 @media only screen and (max-width: 650px) {
 	header #icon-container {
@@ -236,10 +278,17 @@ footer #icon-container {
 	}
 	header #menu #about {
 		position: absolute;
-		left: 80%;
+		left: 76%;
 	} 
 	.content {
 		font-size: 15px;
+	}
+	#b1 , #b2, #b3, #b4 {
+		float: left;
+	}
+	.right-col-cont {
+		left: 0px;
+		top: 0px;
 	}
 	#writing {
 		font-size: 22px;
@@ -262,8 +311,28 @@ footer #icon-container {
 	#page-wrapper {
 		width: 96%;
 	}
+	#menu {
+		float: none;
+	}
+	#home {
+		float: left;
+	}
+	#about {
+		float: right;
+	}
 	.head-col {
 		font-size: 15px;
+	}
+	#now-circle {
+		margin-top:0px;
+	}
+	#now-writing {
+		border-radius: 50px;
+		height: 100px;
+		width: 100px;
+	}
+	#now-writing span {
+		font-size: 20px;
 	}
 	#hand {
 		height: 100px;
@@ -276,7 +345,7 @@ footer #icon-container {
 		left: -20px;
 	}
 	#hand {
-		margin-left: 13px;
+		margin-left: 13%;
 	}
 
 }
