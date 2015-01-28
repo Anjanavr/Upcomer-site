@@ -8,47 +8,33 @@ $('#down-arrow,#down-arrow1').on('click', function(e){
 });
 function validate(clicked_id)
 {
-
-	var user_id =$('form').attr('id')
+    var e = $(clicked_id);
+    var form = e.parent('form').get(0);
+	var user_id =form.id;
 	var check = document.getElementById(user_id).checkValidity();
 	var errorboxid;
 	var sectionid;
 	if (clicked_id == "button-ok" ) {
 		errorboxid = "text_wrap";
-        // sectionid = "section-4main";
-        // sectionidx="section-4mainx";
 	}
 	else{
 		errorboxid = "text_wrap1";
 	}
+    
     if (check == false) {
 		$('#'+errorboxid).show().delay(2000).fadeOut();
+       
 	}
+	else{
+		if (errorboxid=="text_wrap") {
+       	  $('#section-1content').hide();
+		  $('#section-1contentx').show();
+        }
+        else{
+       	  $('#section-4main').hide();
+		  $('#section-4mainx').show();
+       }
+   }
+
 }
 
-
-
-// $("#clicked_id").on("click" , function(e) {
-//     e.preventDefault();	
-// 	var check = document.getElementById('email_validation').checkValidity();
-// 	if (check==false)  {
-// 		$('#text_wrap').show().delay(2000).fadeOut();
-//     }
-// 	if(check==true){  
-//         $('#section-1content').hide();
-// 		$('#section-1contentx').show();
-// 	}	
-// 	});
-// 	$("#button-ok1").on("click" , function(event) {
-//     event.preventDefault();
-//     var check = document.getElementById('email_validation1').checkValidity();
-	
-// 	if (check==false)  {
-// 		$('#text_wrap1').show().delay(2000).fadeOut();
-// 	};
-// 	if (check == true) {
-// 		$('#section-4main').hide();
-// 		$('#section-4mainx').show();
-// 	};
-
-// });
