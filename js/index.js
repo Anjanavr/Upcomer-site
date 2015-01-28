@@ -1,5 +1,5 @@
 
-$('#down-arrow,#down-arrow1').on('click', function(e){
+$('#down-arrow').on('click', function(e){
    e.preventDefault();
    var target=$('#section-2');
    $('html, body').stop().animate({
@@ -13,8 +13,7 @@ function validate(clicked_id)
 	var user_id =form.id;
 	var check = document.getElementById(user_id).checkValidity();
 	var errorboxid;
-	var sectionid;
-	if (clicked_id == "button-ok" ) {
+	if (clicked_id.id == "button-ok" ) {
 		errorboxid = "text_wrap";
 	}
 	else{
