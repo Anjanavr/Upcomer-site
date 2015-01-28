@@ -30,7 +30,7 @@ header {
 #menu {
 	width: 16%;
 	float: left;
-	padding:2% 0% 0 0;
+	padding:2% 0;
 }
 #menu a {
 	font-family: Asap-Bold;
@@ -43,13 +43,13 @@ header {
 #logo-container {
 	float: left;
 	margin: 0px auto;
-	padding:2% 6% 0 8%;
+	padding:2% 0;
 	text-align: center;
-	width: 30%;
+	width: 60%;
 }
 header #icon-container  {
 	float: right;
-	margin: 2% 0 1% 6%;
+	margin: 2% 0;
 	width: 14%;
 }
 #content-col1 {
@@ -113,6 +113,8 @@ header #icon-container  {
 .bullets {
 	border-radius: 50px;
 	height: 40px;
+	position: relative;
+	top: 26px;
 	width: 40px;
 }
 #b1 , #b2 {
@@ -122,31 +124,31 @@ header #icon-container  {
 	float: left;
 }
 #b1 {
-	background-color: rgba(255, 0, 0, 0.26);
+	background-color: #ffc3bd;
 }
 #b2 {
-	background-color: rgba(255, 0, 0, 0.54);
+	background-color: #ed8074;
 }
 #b3 {
-	background-color: rgba(255, 0, 0, 0.40);
+	background-color: #fa9d93;
 }
 #b4 {
-	background-color: rgba(255, 0, 0, 0.71);
+	background-color: #ec675a;
 }
 #col-11 , #col-12 , #col-21 , #col-22 {
 	width: 90%;
 }
 #now-circle {
-	margin-top: 100px;
+	margin-top: 175px;
 	text-align: center;
 	width: 100%;
 }
 #now-writing {
 	border-radius: 65px;
 	background-color: rgba(255, 0, 0, 0.74);
-	height: 120px;
+	height: 110px;
 	margin: 0px auto;
-	width: 120px;
+	width: 110px;
 }
 #now-circle span{
 	color: white;
@@ -232,6 +234,9 @@ footer #icon-container {
 	#content-col2 {
 		width: 100%;
 	}
+	#now-circle {
+		margin-top: 100px;
+	}
 	#pic-outerdiv {
 		width: 100%;
 	}
@@ -243,6 +248,9 @@ footer #icon-container {
 	#head-menu {
 		width: 100%;
 	}
+	#content-col1 {
+		margin-top: 67px;
+	}
 	#hand {
 		margin-left: 90px;
 	}
@@ -251,6 +259,7 @@ footer #icon-container {
 	}
 	.left-col-cont , .right-col-cont {
 		margin-top: 10px;
+		margin-left: 15px;
 	}
 	.right-col-cont {
 		left: 0px;
@@ -260,10 +269,13 @@ footer #icon-container {
 		float: left;
 	}
 	#b2 {
-		background-color: rgba(255, 0, 0, 0.40);
+		background-color: #fa9d93;
 	}
 	#b3 {
-		background-color: rgba(255, 0, 0, 0.54);
+		background-color: #ed8074;
+	}
+	#col-11 , #col-12 , #col-21 , #col-22 {
+	width: 80%;
 	}
 	#col-11 , #col-12 , #col-21 , #col-22 {
 		padding-left: 17%;
@@ -281,7 +293,7 @@ footer #icon-container {
 		left: 76%;
 	} 
 	.content {
-		font-size: 15px;
+		font-size: 18px;
 	}
 	#b1 , #b2, #b3, #b4 {
 		float: left;
@@ -301,7 +313,7 @@ footer #icon-container {
 	}
 
 	#emailId a {
-		font-size: 15px;
+		font-size: 18px;
 	}
 	#now-writing {
 		margin:0;
@@ -314,6 +326,9 @@ footer #icon-container {
 	#menu {
 		float: none;
 	}
+	#menu a {
+		margin-top: 20px;
+	}
 	#home {
 		float: left;
 	}
@@ -321,10 +336,10 @@ footer #icon-container {
 		float: right;
 	}
 	.head-col {
-		font-size: 15px;
+		font-size: 18px;
 	}
 	#now-circle {
-		margin-top:0px;
+		margin-top:10px;
 	}
 	#now-writing {
 		border-radius: 50px;
