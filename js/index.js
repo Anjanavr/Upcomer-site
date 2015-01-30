@@ -1,5 +1,5 @@
-
 $('#down-arrow').on('click', function(e){
+
    e.preventDefault();
    var target=$('#section-2');
    $('html, body').stop().animate({
@@ -55,4 +55,12 @@ function validate(clicked_id)
 		}
 	});
 }
-
+		var emailWidgetHtml = $("#content.LR-content").html();
+		var timer = setInterval(function() {
+		if($("#content.LR-content").html() !== emailWidgetHtml) {
+			$(".LR-sign-up-input.signup-email").attr("placeholder", "Enter your email");
+			clearInterval(timer);
+		} else {
+			//nothing to do
+		}
+		}, 50);
