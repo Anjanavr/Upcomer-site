@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 $(document).ready(function (){
 $('#down-arrow,#down-arrow1').on('click', function(e){
-=======
+
 
 $('#down-arrow').on('click', function(e){
->>>>>>> b278e5f0855add7d9c100f2b16510eda2504d59b
+
    e.preventDefault();
    var target=$('#section-2');
    $('html, body').stop().animate({
@@ -69,4 +69,5 @@ function validate(clicked_id)
 			//nothing to do
 		}
 	}, 50);
+});
 });
