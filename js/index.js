@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-$(document).ready(function (){
-$('#down-arrow,#down-arrow1').on('click', function(e){
-=======
 
 $('#down-arrow').on('click', function(e){
->>>>>>> b278e5f0855add7d9c100f2b16510eda2504d59b
    e.preventDefault();
    var target=$('#section-2');
    $('html, body').stop().animate({
@@ -13,10 +8,11 @@ $('#down-arrow').on('click', function(e){
 });
 function validate(clicked_id)
 {
+	
 	var check = document.getElementById(clicked_id.id).checkValidity();
 	var errorboxid;
 	
-	if (clicked_id.id == "email_validation" ) {
+	if (clicked_id.id == "email_validation") {
 		errorboxid = "text_wrap";
 	}
 	else{
@@ -60,13 +56,3 @@ function validate(clicked_id)
 	});
 }
 
-	var emailWidgetHtml = $("#content.LR-content").html();
-	var timer = setInterval(function() {
-		if($("#content.LR-content").html() !== emailWidgetHtml) {
-			$(".LR-sign-up-input.signup-email").attr("placeholder", "Enter your email");
-			clearInterval(timer);
-		} else {
-			//nothing to do
-		}
-	}, 50);
-});
