@@ -130,11 +130,11 @@ font-size: 16px;
 color: #ffffff;
 padding: 2% 0 2% 0;
 /* float: left; */
-padding: 35% 0 0 0;
+padding: 16% 0 0 0;
 
 }
 #down-arrow{
-	padding: 0;
+	padding: 2% 0 0 0;
 position: relative;
 top: 4px;
 cursor: pointer;
@@ -386,6 +386,7 @@ div#email-field1 {
 div#email-field{
 	float: left;
 	padding: 49px 0 0 0;
+	margin-left: 21px;
 }
 span.text{
 	   font-family: "Asap-Regular";
@@ -840,9 +841,9 @@ span.text{
 
 }
 #content-3{
-   float: left;
+   
    padding:0;
-   padding-top: 2%;
+   padding-top: 24%;
 }
 
 
