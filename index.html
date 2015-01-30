@@ -3,6 +3,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="main-content">
@@ -31,17 +32,21 @@
 							<div class="tip"></div>
 						</div>
 					    <div id="email-field">
-					    <form id="email_validation">
-							<input type="email"  id="field" pattern=".+@.+\..+" required placeholder= "Enter your email">
-							<input type="button" id="button-ok" onclick="validate(this)" value="Ok">
-						</form>
+						<!-- <div id="mc_embed_signup"> -->
+							<form action="//us10.list-manage.com/subscribe/post-json?u=6e86c51ea42cc062099af08b0&id=3369562b9b&c=?" method="get" id="email_validation" name="mc-embedded-subscribe-form" onsubmit="event.preventDefault();validate(this);" class="validate" target="_blank" novalidate>
+
+								<input type="email" value="" name="EMAIL" class="email"  placeholder="email address" id="field1" required pattern=".+@.+\..+" >
+								<div style="position: absolute; left: -5000px;"><input type="text" name="b_6e86c51ea42cc062099af08b0_3369562b9b" tabindex="-1" value=""></div>
+								<input type="submit" id="button-ok" value="Ok" name="subscribe"  class="button">
+							</form>
+						</div>
+
+						<!--End mc_embed_signup-->
 						</div>
 					    <div id="content-3">
 							coming to Android and iOS first half of 2015
 					    </div>
 					</div>
-					
-				</div>
 			    <div id="section-1contentx">
 					<div id="content-1x">
 						We have added your email address to the sign-up queue<br>
