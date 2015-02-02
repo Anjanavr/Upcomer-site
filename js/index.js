@@ -1,8 +1,3 @@
-
-$(document).ready(function (){
-$('#down-arrow,#down-arrow1').on('click', function(e){
-
-
 $('#down-arrow').on('click', function(e){
 
    e.preventDefault();
@@ -13,10 +8,11 @@ $('#down-arrow').on('click', function(e){
 });
 function validate(clicked_id)
 {
+	
 	var check = document.getElementById(clicked_id.id).checkValidity();
 	var errorboxid;
 	
-	if (clicked_id.id == "email_validation" ) {
+	if (clicked_id.id == "email_validation") {
 		errorboxid = "text_wrap";
 	}
 	else{
@@ -59,15 +55,12 @@ function validate(clicked_id)
 		}
 	});
 }
-
-	var emailWidgetHtml = $("#content.LR-content").html();
-	var timer = setInterval(function() {
+		var emailWidgetHtml = $("#content.LR-content").html();
+		var timer = setInterval(function() {
 		if($("#content.LR-content").html() !== emailWidgetHtml) {
 			$(".LR-sign-up-input.signup-email").attr("placeholder", "Enter your email");
 			clearInterval(timer);
 		} else {
 			//nothing to do
 		}
-	}, 50);
-});
-});
+		}, 50);
