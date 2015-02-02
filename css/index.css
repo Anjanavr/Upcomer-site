@@ -490,9 +490,7 @@ input#field1{
 	 max-width: none !important;
 }
 .LR-sign-up-container-inner {
-	left: 32%;
     margin: 0 auto;
-    position: relative;
     width: 100%;
 }
 .LR-sign-up-container-inner input{
@@ -511,6 +509,8 @@ input#field1{
 	font-size: 20.3px;
 	height: 60px;
 	opacity: .8;
+	left: 30%;
+	position: relative;
 	padding: 0 0 0 40px !important;
 	width: 208px;
 
@@ -523,6 +523,8 @@ input#field1{
 	color: #ffffff;
 	height: 60px;
 	max-height: none;
+	left: 30%;
+	position: relative;
 	text-shadow:none;
 	text-transform: none;
 	width: 70px;
@@ -531,11 +533,7 @@ input#field1{
 	background-color: rgba(46, 204, 113, 0.76);
 }
 /*responsive for mobile**********************/
-@media only screen and (max-width:768px){
-	.LR-sign-up-container-inner {
-	left: 20%;
-}
-}
+
 @media only screen and (max-width:767px){
 	.logo,#logo1{
 	display: none;
@@ -847,11 +845,6 @@ span.text{
 }
 
 
-}
-@media only screen and (min-width: 310px)and (max-width:760px){
-	.LR-sign-up-container-inner {
-		left: 6%;
-	}
 }
 @media only screen and (min-width: 768px)and (max-width:1128px){
 #section-5content{
